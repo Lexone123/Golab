@@ -44,7 +44,7 @@ func send(prev <-chan Token, next chan<- Token, id int) {
 
 func main() {
 	if (len(os.Args) < 2) {
-		fmt.Println("run 'mainn.go' 'and <Number of goroutines>")
+		fmt.Println("run 'mainn.go' with <Number of goroutines>")
 		os.Exit(0);
 	}
 
